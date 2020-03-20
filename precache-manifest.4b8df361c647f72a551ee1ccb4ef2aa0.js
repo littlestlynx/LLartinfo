@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3924710aea7b50d75669fa66e1d50fc6",
+    "revision": "4ea83c0633e3d2ba80ab0bdb9c85c159",
     "url": "/LLartinfo/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LLartinfo/static/css/2.e49e09ab.chunk.css"
   },
   {
-    "revision": "180ec1ff92427645f6cd",
-    "url": "/LLartinfo/static/css/main.030361d1.chunk.css"
+    "revision": "05192f1edf9cfea28cbd",
+    "url": "/LLartinfo/static/css/main.75287ddc.chunk.css"
   },
   {
     "revision": "2838ec6fb284b587551b",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LLartinfo/static/js/2.06182d7f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "180ec1ff92427645f6cd",
-    "url": "/LLartinfo/static/js/main.18cb0636.chunk.js"
+    "revision": "05192f1edf9cfea28cbd",
+    "url": "/LLartinfo/static/js/main.fc84fba5.chunk.js"
   },
   {
     "revision": "afb50760ef8e74a63ff0",
