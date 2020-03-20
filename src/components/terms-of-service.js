@@ -4,6 +4,7 @@ import Link from '@material-ui/core/Link';
 
 const TermsOfService = () => {
     return (
+        <>
         <Typography variant="h6" align="left" color="textSecondary" paragraph>
             <ul>
                 <li className="tos-list-item">
@@ -28,12 +29,16 @@ const TermsOfService = () => {
                     </ul>
                 </li>
             </ul>
-            You can 
-                <Link color="blue" href="https://twitter.com/littlestlynx"> 
-                    { } DM me on twitter { }
-                </Link> 
-            for a quote.
+            
         </Typography>
+        <p className="terms-footer">
+        You can 
+            <Link color="blue" href="https://twitter.com/littlestlynx"> 
+                { } DM me on twitter { }
+            </Link> 
+        for a quote.
+        </p>
+        </>
     )
 }
 

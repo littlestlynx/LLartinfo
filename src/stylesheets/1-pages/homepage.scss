@@ -1,11 +1,28 @@
 .MuiContainer-maxWidthSm {
-	width: 90vw !important;
-	max-width: 80vw !important;
+
+  @media (min-width:450px) {
+    width: 90vw !important;
+    max-width: 80vw !important;
+  }
+  
+  @media (max-width:450px) {
+    width: 100vw !important;
+    max-width: 100vw !important;
+  }
 }
 
 h1 {
-  @media (max-width:450) {
+  @media (max-width:450px) {
     font-size: 2.75rem !important;
+  }
+}
+
+h6 {
+  @media (max-width:450px) {
+    font-size: 1rem !important;
+    padding-bottom: 30px !important;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
@@ -14,6 +31,11 @@ img {
   height: 500px;
   display: grid !important;
   margin: 0 auto;
+
+  @media (max-width:450px) {
+    width: 300px;
+    height: 300px;
+  }
 }
 
 .content {
@@ -25,6 +47,11 @@ img {
     transform: translate(-50%, -50%);
   }
 
+.terms-footer {
+  font-size: 16px;
+  text-align: center;
+}
+
 .tos {
   &-button {
     width: 200px !important;
@@ -33,17 +60,40 @@ img {
 
   &-list-item {
     padding-bottom: 20px;
+
+    @media (max-width: 450px) {
+      font-size: 16px;
+    }
   }
 }
 
 .modal {
+  
   &-close-button  {
-    margin: 0 47.8% !important;
+    margin:auto;
+    display: grid;
+    width: 100px;
+
+    @media (max-width: 450px) {
+      margin: 0 0 !important;
+    }
   }
 
   &-subtitle {
     color: black !important;
     text-align: center;
+
+    @media (max-width: 450px) {
+      padding-top: 40px;
+    }
+  }
+}
+
+.MuiButton-root {
+  @media (max-width: 450px) {
+    min-width: 100vw !important;
+    height: 50px;
+    font-size: 1.5rem !important;
   }
 }
 
@@ -73,6 +123,7 @@ img {
 .carousel-div {
   max-width: 500px;
   margin: 0 auto;
+
 }
 
 img {

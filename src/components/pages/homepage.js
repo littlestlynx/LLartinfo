@@ -222,7 +222,8 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-const modalStyles = {
+
+const modalStyles = (window.innerWidth > 450) ? {
   content: {
     top: '50%',
     left: '50%',
@@ -232,4 +233,18 @@ const modalStyles = {
     transform: 'translate(-50%, -50%)',
     maxWidth: "60vw"
   }
-};
+} : {
+  content: {
+    top: '50%',
+    left: '50%',
+    right: 'auto',
+    bottom: 'auto',
+    marginRight: '-50%',
+    transform: 'translate(-50%, -50%)',
+    maxWidth: "110vw",
+    paddingRight: "0px",
+    paddingLeft: "0px",
+    height: "100vh",
+    zIndex: "10000",
+  }
+}
