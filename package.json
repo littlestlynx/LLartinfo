@@ -1,6 +1,6 @@
 {
   "name": "LLartinfo",
-  "homepage": "http://littlestlynx.github.io/LLartinfo",
+  "homepage": "https://littlestlynx.github.io/LLartinfo/",
   "author": "some dog boy",
   "version": "0.1.0",
   "private": true,
@@ -10,6 +10,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.13.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
@@ -40,7 +41,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "gh-pages": "^2.2.0"
-  }
+  "devDependencies": {}
 }
